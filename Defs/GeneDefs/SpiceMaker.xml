@@ -1,0 +1,14 @@
+<Defs>
+  <GeneDef>
+    <defName>SpiceMaker</defName>
+    <label>Spice Maker</label>
+    <description>Pawns with this gene can produce unrefined spice from their own body.</description>
+    <iconPath>Textures/SpiceGeneIcon</iconPath>
+    <biostatArc>2</biostatArc>
+    <biostatMet>1</biostatMet>
+    <geneClass>MyGeneProduceSpice</geneClass>
+    <graphicData>
+      <texPath>Textures/SpiceGeneIcon</texPath>
+    </graphicData>
+  </GeneDef>
+</Defs>

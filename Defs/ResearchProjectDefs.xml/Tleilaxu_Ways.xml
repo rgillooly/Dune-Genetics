@@ -1,0 +1,16 @@
+<Defs>
+  <ResearchProjectDef>
+    <defName>Tleilaxu_Ways</defName>
+    <label>tleilaxu ways</label>
+    <description>Unlocks the ways of the Tleilaxu Masters. Build tanks and play with genetics!</description>
+    <baseCost>1200</baseCost> <!-- Adjusted for a moderate challenge -->
+    <techLevel>Spacer</techLevel>
+  <researchViewX>2.50</researchViewX>
+  <researchViewY>3.70</researchViewY>
+    <prerequisites>
+      <li>Electricity</li> <!-- Requires electricity to research -->
+      <li>Machining</li>
+    </prerequisites>
+    <tab>Dune</tab>
+  </ResearchProjectDef>
+</Defs>

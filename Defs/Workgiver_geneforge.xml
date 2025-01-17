@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	  <WorkGiverDef>
+		<defName>DoBillsGeneforge</defName>
+		<label>forge genes</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>95</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GeneSlurryForge</li>
+		</fixedBillGiverDefs>
+		<workTags>
+			<li>Intellectual</li>
+		</workTags>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<verb>gene forge</verb>
+		<gerund>gene forging</gerund>
+	  </WorkGiverDef>
+	  
+	  <WorkGiverDef>
+		<defName>GenepackArchiteGF_PlaceInGeneBank</defName>
+		<label>bank genepack</label>
+		<giverClass>CategoricGenepacks.GF_PutArchiteInGeneBank</giverClass>
+		<workType>Hauling</workType>
+		<verb>bank</verb>
+		<gerund>banking</gerund>
+		<priorityInType>111</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	  </WorkGiverDef>
+	  
+	  <WorkGiverDef>
+		<defName>GenepackAbilityGF_PlaceInGeneBank</defName>
+		<label>bank genepack</label>
+		<giverClass>CategoricGenepacks.GF_PutAbilityInGeneBank</giverClass>
+		<workType>Hauling</workType>
+		<verb>bank</verb>
+		<gerund>banking</gerund>
+		<priorityInType>111</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	  </WorkGiverDef>
+	  
+	  <WorkGiverDef>
+		<defName>GenepackHemoGF_PlaceInGeneBank</defName>
+		<label>bank genepack</label>
+		<giverClass>CategoricGenepacks.GF_PutHemoInGeneBank</giverClass>
+		<workType>Hauling</workType>
+		<verb>bank</verb>
+		<gerund>banking</gerund>
+		<priorityInType>111</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	  </WorkGiverDef>
+	  
+	  <WorkGiverDef MayRequire="sarg.alphagenes">
+		<defName>GenepackMechanitorGF_PlaceInGeneBank</defName>
+		<label>bank genepack</label>
+		<giverClass>CategoricGenepacks.GF_AG_PutMechanitorInGeneBank</giverClass>
+		<workType>Hauling</workType>
+		<verb>bank</verb>
+		<gerund>banking</gerund>
+		<priorityInType>111</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	  </WorkGiverDef>
+	  
+	  <WorkGiverDef MayRequire="phonicmas.biotechexpansionwarhammer40k">
+		<defName>GenepackWarhammerGF_PlaceInGeneBank</defName>
+		<label>bank genepack</label>
+		<giverClass>CategoricGenepacks.GF_BEWH_PutWarhammerInGeneBank</giverClass>
+		<workType>Hauling</workType>
+		<verb>bank</verb>
+		<gerund>banking</gerund>
+		<priorityInType>111</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	  </WorkGiverDef>
+</Defs>
