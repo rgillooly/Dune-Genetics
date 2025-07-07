@@ -1,0 +1,7 @@
+<Defs>
+<JobDef>
+  <defName>EnterGeneChamber</defName>
+  <driverClass>DuneTleilax.JobDriver_EnterGeneChamber</driverClass>
+  <reportString>Entering gene chamber</reportString>
+</JobDef>
+</Defs>
